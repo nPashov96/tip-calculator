@@ -18,7 +18,7 @@ customTip.addEventListener('input', customInput);
 
 let billValue = 0.0;
 let peopleValue = 1;
-let tipValue = 0.15;
+let tipValue = 0.15; 
 
 function billInputFunc() {
     billValue = parseFloat(billInput.value);
@@ -29,9 +29,10 @@ function peopleInputFunc() {
     peopleValue = parseFloat(peopleInput.value)
     if (peopleInput.value <= 0 ) {
         zero.style.display = 'block';
-        peopleInput.style.border = "solid 2px #E17457";
+        peopleInput.style.outline = "solid 2px #E17457";
     } else {
         zero.style.display = 'none';
+        peopleInput.style.outline = "none";
     }
     calculateTip();
 };
@@ -75,4 +76,5 @@ function reset() {
     totalPerson.innerHTML = '$0.00';
     peopleInput.style.border = 'hidden'
     zero.style.display = 'none'
+    peopleInput.style.outline = "none";
 }

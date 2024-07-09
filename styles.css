@@ -96,8 +96,7 @@ body {
     }
 
     #bill-size:focus {
-        outline: none;
-        border: solid 2px #26C2AE;
+        outline: solid 2px #26C2AE;
     }
 
     #bill-size:focus::placeholder {
@@ -165,8 +164,7 @@ body {
     }
 
     #custom:focus {
-        outline: none;
-        border: solid 2px #26C2AE;
+        outline: solid 2px #26C2AE;
     }
 
     #custom:focus::placeholder {
@@ -373,8 +371,7 @@ body {
     }
 
     #bill-size:focus {
-        outline: none;
-        border: solid 2px #26C2AE;
+        outline: solid 2px #26C2AE;
     }
 
     #bill-size:focus::placeholder {
